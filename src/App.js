@@ -6,7 +6,7 @@ function App() {
       Weather App
       <p>
         <a
-          href="https://github.com/christierbt/react-weatherapp"
+          href="https://github.com/christierbt/christie-react-weatherapp"
           target="_blank"
         >
           Open Source Code
