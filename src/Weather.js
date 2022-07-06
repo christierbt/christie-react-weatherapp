@@ -1,11 +1,7 @@
 import React from "react";
-import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
-  const apiKey = "4b433d9a7f22e9aa26d3e1760e73b0a6";
-  let city = "London";
-  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`;
   return (
     <div className="container">
       <form id="search-form">
@@ -72,6 +68,7 @@ export default function Weather() {
           <div className="weather-forecast" id="forecast"></div>
           <footer>
             <a
+              rel="noreferrer"
               href="https://github.com/christierbt/christie-react-weatherapp"
               target="_blank"
             >
