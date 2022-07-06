@@ -68,7 +68,7 @@ export default function Weather() {
           <div className="weather-forecast" id="forecast"></div>
           <footer>
             <a
-              rel="noreferrer"
+              rel="noopener noreferrer"
               href="https://github.com/christierbt/christie-react-weatherapp"
               target="_blank"
             >
