@@ -14,12 +14,13 @@ h2 {
 
 .enter-city {
   position: relative;
-  top: 6px;
+  top: 15px;
   right: 0%;
 }
 
 .btn {
   position: relative;
+  top: 11px;
   background: rgb(121, 121, 184);
   border: none;
   transition: ease-in-out;
