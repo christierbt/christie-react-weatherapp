@@ -20,7 +20,7 @@ export default function WeatherInfo(props) {
       <div className="row">
         <div className="col-3">
           <div className="float-left">
-            <WeatherIcon code={props.data.icon} size={48} />
+            <WeatherIcon code={props.data.icon} size={52} />
           </div>
         </div>
 
@@ -38,7 +38,6 @@ export default function WeatherInfo(props) {
             </li>
           </ul>
         </div>
-        <div className="weather-forecast" id="forecast"></div>
       </div>
     </div>
   );

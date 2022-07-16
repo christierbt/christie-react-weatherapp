@@ -1,6 +1,6 @@
 h1 {
   font-weight: bolder;
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -50,10 +50,10 @@ h2 {
   color: rgb(65, 65, 65);
   margin: 1px;
   padding: 2px;
+  margin-bottom: 20px;
 }
 
-#weather-icon {
-  font-size: 50px;
+.WeatherIcon {
   position: relative;
   top: 10px;
   left: 15px;
@@ -101,4 +101,18 @@ ul {
   font-size: 14px;
   top: -22px;
   right: 0%;
+}
+
+.WeatherForecast {
+  position: relative;
+  text-align: center;
+  margin-top: 10%;
+}
+
+.days-forecast {
+  font-weight: bolder;
+}
+
+.temp-forecast {
+  font-size: 12px;
 }
