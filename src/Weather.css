@@ -85,7 +85,7 @@ ul {
 .weather-details {
   position: relative;
   text-align: left;
-  left: -40px;
+  left: -15px;
   color: rgb(65, 65, 65);
   margin-top: 0;
 }
